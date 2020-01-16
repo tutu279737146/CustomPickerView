@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24AD8DA223D0453500495642 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AD8DA123D0453500495642 /* AppDelegate.m */; };
+		24AD8DA523D0453500495642 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AD8DA423D0453500495642 /* SceneDelegate.m */; };
+		24AD8DA823D0453500495642 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AD8DA723D0453500495642 /* ViewController.m */; };
+		24AD8DAB23D0453500495642 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24AD8DA923D0453500495642 /* Main.storyboard */; };
+		24AD8DAD23D0453600495642 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24AD8DAC23D0453600495642 /* Assets.xcassets */; };
+		24AD8DB023D0453600495642 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24AD8DAE23D0453600495642 /* LaunchScreen.storyboard */; };
+		24AD8DB323D0453600495642 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AD8DB223D0453600495642 /* main.m */; };
+		24AD8DBB23D045DD00495642 /* CustomDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AD8DBA23D045DD00495642 /* CustomDatePickerViewController.m */; };
+		AFB2728D90C9EDB2B9A73D14 /* libPods-CustomDatePicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72FC1E05B24FF90B3D65C0E1 /* libPods-CustomDatePicker.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24AD8D9D23D0453500495642 /* CustomDatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomDatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24AD8DA023D0453500495642 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		24AD8DA123D0453500495642 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		24AD8DA323D0453500495642 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		24AD8DA423D0453500495642 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		24AD8DA623D0453500495642 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		24AD8DA723D0453500495642 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		24AD8DAA23D0453500495642 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24AD8DAC23D0453600495642 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24AD8DAF23D0453600495642 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24AD8DB123D0453600495642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24AD8DB223D0453600495642 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24AD8DB923D045DD00495642 /* CustomDatePickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomDatePickerViewController.h; sourceTree = "<group>"; };
+		24AD8DBA23D045DD00495642 /* CustomDatePickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomDatePickerViewController.m; sourceTree = "<group>"; };
+		72FC1E05B24FF90B3D65C0E1 /* libPods-CustomDatePicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomDatePicker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AF435FC3EBD4122C044F4A3 /* Pods-CustomDatePicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDatePicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomDatePicker/Pods-CustomDatePicker.debug.xcconfig"; sourceTree = "<group>"; };
+		DD6F015CAE6F6C05F2DF4DC0 /* Pods-CustomDatePicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDatePicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomDatePicker/Pods-CustomDatePicker.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24AD8D9A23D0453500495642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB2728D90C9EDB2B9A73D14 /* libPods-CustomDatePicker.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F5434408975EE25674F9616 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7AF435FC3EBD4122C044F4A3 /* Pods-CustomDatePicker.debug.xcconfig */,
+				DD6F015CAE6F6C05F2DF4DC0 /* Pods-CustomDatePicker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		24AD8D9423D0453500495642 = {
+			isa = PBXGroup;
+			children = (
+				24AD8D9F23D0453500495642 /* CustomDatePicker */,
+				24AD8D9E23D0453500495642 /* Products */,
+				0F5434408975EE25674F9616 /* Pods */,
+				369F54F3C7A5FED99704B4C3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		24AD8D9E23D0453500495642 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24AD8D9D23D0453500495642 /* CustomDatePicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24AD8D9F23D0453500495642 /* CustomDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				24AD8DA023D0453500495642 /* AppDelegate.h */,
+				24AD8DA123D0453500495642 /* AppDelegate.m */,
+				24AD8DA323D0453500495642 /* SceneDelegate.h */,
+				24AD8DA423D0453500495642 /* SceneDelegate.m */,
+				24AD8DA623D0453500495642 /* ViewController.h */,
+				24AD8DA723D0453500495642 /* ViewController.m */,
+				24AD8DB923D045DD00495642 /* CustomDatePickerViewController.h */,
+				24AD8DBA23D045DD00495642 /* CustomDatePickerViewController.m */,
+				24AD8DA923D0453500495642 /* Main.storyboard */,
+				24AD8DAC23D0453600495642 /* Assets.xcassets */,
+				24AD8DAE23D0453600495642 /* LaunchScreen.storyboard */,
+				24AD8DB123D0453600495642 /* Info.plist */,
+				24AD8DB223D0453600495642 /* main.m */,
+			);
+			path = CustomDatePicker;
+			sourceTree = "<group>";
+		};
+		369F54F3C7A5FED99704B4C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72FC1E05B24FF90B3D65C0E1 /* libPods-CustomDatePicker.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24AD8D9C23D0453500495642 /* CustomDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24AD8DB623D0453600495642 /* Build configuration list for PBXNativeTarget "CustomDatePicker" */;
+			buildPhases = (
+				E14C670CDFFCDF9AD03AEC36 /* [CP] Check Pods Manifest.lock */,
+				24AD8D9923D0453500495642 /* Sources */,
+				24AD8D9A23D0453500495642 /* Frameworks */,
+				24AD8D9B23D0453500495642 /* Resources */,
+				BA56233087339DB3411B24C5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomDatePicker;
+			productName = CustomDatePicker;
+			productReference = 24AD8D9D23D0453500495642 /* CustomDatePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24AD8D9523D0453500495642 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = A;
+				TargetAttributes = {
+					24AD8D9C23D0453500495642 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 24AD8D9823D0453500495642 /* Build configuration list for PBXProject "CustomDatePicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24AD8D9423D0453500495642;
+			productRefGroup = 24AD8D9E23D0453500495642 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24AD8D9C23D0453500495642 /* CustomDatePicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24AD8D9B23D0453500495642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24AD8DB023D0453600495642 /* LaunchScreen.storyboard in Resources */,
+				24AD8DAD23D0453600495642 /* Assets.xcassets in Resources */,
+				24AD8DAB23D0453500495642 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BA56233087339DB3411B24C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CustomDatePicker/Pods-CustomDatePicker-resources.sh",
+				"${PODS_ROOT}/DateTools/DateTools/DateTools/DateTools.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DateTools.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomDatePicker/Pods-CustomDatePicker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E14C670CDFFCDF9AD03AEC36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomDatePicker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24AD8D9923D0453500495642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24AD8DA823D0453500495642 /* ViewController.m in Sources */,
+				24AD8DA223D0453500495642 /* AppDelegate.m in Sources */,
+				24AD8DB323D0453600495642 /* main.m in Sources */,
+				24AD8DBB23D045DD00495642 /* CustomDatePickerViewController.m in Sources */,
+				24AD8DA523D0453500495642 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24AD8DA923D0453500495642 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24AD8DAA23D0453500495642 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24AD8DAE23D0453600495642 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24AD8DAF23D0453600495642 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24AD8DB423D0453600495642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		24AD8DB523D0453600495642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24AD8DB723D0453600495642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AF435FC3EBD4122C044F4A3 /* Pods-CustomDatePicker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomDatePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.CustomDatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24AD8DB823D0453600495642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD6F015CAE6F6C05F2DF4DC0 /* Pods-CustomDatePicker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomDatePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.CustomDatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24AD8D9823D0453500495642 /* Build configuration list for PBXProject "CustomDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24AD8DB423D0453600495642 /* Debug */,
+				24AD8DB523D0453600495642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24AD8DB623D0453600495642 /* Build configuration list for PBXNativeTarget "CustomDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24AD8DB723D0453600495642 /* Debug */,
+				24AD8DB823D0453600495642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24AD8D9523D0453500495642 /* Project object */;
+}
